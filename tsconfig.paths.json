@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@micro/ui": ["packages/ui/dist"],
-      "@micro/ui/*": ["packages/ui/dist/*"]
-    }
+    "baseUrl": "."
+    // "paths": {
+    //   "@micro/ui": ["packages/ui/dist"],
+    //   "@micro/ui/*": ["packages/ui/dist/*"]
+    // }
   }
 }

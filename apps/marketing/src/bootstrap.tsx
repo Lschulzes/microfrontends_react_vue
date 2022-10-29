@@ -1,16 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Button } from "ui";
-
-const App = () => {
-  return (
-    <>
-      <h1>{"Hello"}</h1>
-      <h2>{"World"}</h2>
-      <Button>Say Hi</Button>
-    </>
-  );
-};
+import App from "./app";
 
 const mount = (el: Element) => {
   ReactDOM.render(<App />, el);
