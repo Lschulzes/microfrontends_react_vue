@@ -1,0 +1,9 @@
+{
+  "conventionalCommits.scopes": [
+    "marketing",
+    "auth",
+    "container",
+    "dashboard",
+    "ui"
+  ]
+}
