@@ -22,7 +22,7 @@ const devConfig = {
       exposes: {
         "./MarketingIndex": "./src/bootstrap",
       },
-      shared: packageJson.dependencies,
+      shared: ["react", "react-dom"],
     }),
   ],
 };
