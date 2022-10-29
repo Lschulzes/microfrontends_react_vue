@@ -1,3 +1,5 @@
-export const Button = () => {
-  return <button>Boop</button>;
+import { ReactNode } from "react";
+
+export const Button = ({ children }: { children: ReactNode }) => {
+  return <button>{children}</button>;
 };
